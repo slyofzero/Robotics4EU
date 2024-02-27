@@ -1,0 +1,57 @@
+.breadcrumbs-link {
+    text-transform: lowercase;
+}
+
+.modal-text .project-text {
+    text-align: left;
+}
+
+.online-meeting-text p {
+    font-family: "EuclidCircularA-Light", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.platform .text p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.warnings__error {
+    border: none;
+    background: none;
+    color: #e82052;
+}
+
+.warnings__success {
+    border: none;
+    background: none;
+}
+
+.institucional h4 {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-align: center;
+    margin: 70px 0;
+    font-family: "EuclidCircularA-Regular", Arial, sans-serif;
+}
+
+.project-text p {
+    text-align: left;
+}
+
+.consortium-box .modal-text p {
+    font-family: "EuclidCircularA-Regular", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 79px;
+    text-align: left;
+}
