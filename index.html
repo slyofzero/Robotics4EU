@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="profile" href="https://gmpg.org/xfn/11" />
 
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    /> -->
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -149,6 +154,10 @@
       }
     </script>
     <!-- / Yoast SEO plugin. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
     <link
@@ -798,7 +807,7 @@
                       </ul> -->
                     </li>
                     <li class="with-submenu">
-                      <a href="" title="publications" class="main-menu__item"
+                      <a href="" title="the bot" class="main-menu__item"
                         >The Bot <i class="icon-go_back_arrow"></i
                       ></a>
                       <!-- <ul class="main-menu__submenu">
@@ -829,7 +838,7 @@
                       </ul> -->
                     </li>
                     <li class="with-submenu">
-                      <a href="" title="media" class="main-menu__item"
+                      <a href="" title="the dapp" class="main-menu__item"
                         >The DApp<i class="icon-go_back_arrow"></i
                       ></a>
                       <!-- <ul class="main-menu__submenu">
@@ -860,7 +869,7 @@
                       </ul> -->
                     </li>
                     <li class="with-submenu">
-                      <a href="" title="events" class="main-menu__item"
+                      <a href="" title="tokenomics" class="main-menu__item"
                         >Tokenomics<i class="icon-go_back_arrow"></i
                       ></a>
                       <!-- <ul class="main-menu__submenu">
@@ -883,7 +892,7 @@
                       </ul> -->
                     </li>
                     <li class="with-submenu">
-                      <a href="" title="tools" class="main-menu__item"
+                      <a href="" title="roadmap" class="main-menu__item"
                         >Roadmap<i class="icon-go_back_arrow"></i
                       ></a>
                       <!-- <ul class="main-menu__submenu">
@@ -996,9 +1005,7 @@
                       </ul> -->
                     </li>
                     <li class="menu-item">
-                      <a href="#bot" class="menu-link" title="publications"
-                        >The Bot</a
-                      >
+                      <a href="#bot" class="menu-link" title="bot">The Bot</a>
                       <!-- <ul class="submenu">
                         <li class="menu-item">
                           <a
@@ -1027,7 +1034,7 @@
                       </ul> -->
                     </li>
                     <li class="menu-item">
-                      <a href="#dapp" class="menu-link" title="media"
+                      <a href="#dapp" class="menu-link" title="dapp"
                         >The DApp</a
                       >
                       <!-- <ul class="submenu">
@@ -1062,7 +1069,7 @@
                 <div class="right-menu split-menu">
                   <ul class="menu">
                     <li class="menu-item">
-                      <a href="#tokenomics" class="menu-link" title="events"
+                      <a href="#tokenomics" class="menu-link" title="tokenomics"
                         >Tokenomics</a
                       >
                       <!-- <ul class="submenu">
@@ -1085,7 +1092,7 @@
                       </ul> -->
                     </li>
                     <li class="menu-item">
-                      <a href="#roadmap" class="menu-link" title="tools"
+                      <a href="#roadmap" class="menu-link" title="roadmap"
                         >Roadmap</a
                       >
                       <!-- <ul class="submenu">
@@ -1149,9 +1156,12 @@
             <div class="tag-register">Try out our new tool</div>
           </a>
         </div>
-        <div class="scroll-area">
+        <div class="scroll-area" style="display: flex; gap: 1rem">
           <span class="scroll-text">scroll</span>
-          <i class="icon-scrolldown"></i>
+          <i
+            class="fa-solid fa-computer-mouse"
+            style="font-size: 2.5rem; color: #e82052"
+          ></i>
           <span class="scroll-text">down</span>
         </div>
       </section>
@@ -1416,7 +1426,7 @@
                 title="+ info"
                 data-toggle="modal"
                 data-target="#infoModal"
-                ><i class="icon-footer"></i
+                ><i class="fas fa-ellipsis-h"></i
               ></a>
               <div class="btn-info info-plus">+ info</div>
             </div>
@@ -1446,7 +1456,7 @@
     >
       <div class="modal-dialog modal-dialog-scrollable">
         <button class="btn-close" data-dismiss="modal">
-          <i class="icon-close"></i>
+          <i class="fas fa-times" style="height: 0.75rem; width: 0.75rem"></i>
         </button>
         <div class="modal-content newsletter-box">
           <div class="container">
@@ -1563,7 +1573,7 @@
     >
       <div class="modal-dialog modal-dialog-scrollable">
         <button class="btn-close" data-dismiss="modal">
-          <i class="icon-close"></i>
+          <i class="fas fa-times" style="height: 0.75rem; width: 0.75rem"></i>
         </button>
         <div class="modal-content info-box" id="container">
           <div class="container">
@@ -1575,14 +1585,21 @@
                     class="social-link"
                     title="linkedin"
                     target="_blank"
-                    ><i class="icon-linkedin"></i
+                    ><i class="fab fa-telegram"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/robotics4eu/"
+                    class="social-link"
+                    title="linkedin"
+                    target="_blank"
+                    ><i class="fa-brands fa-x-twitter"></i
                   ></a>
                   <a
                     href="https://www.facebook.com/Robotics4EU"
                     class="social-link"
                     title="facebook"
                     target="_blank"
-                    ><i class="icon-facebook"></i
+                    ><i class="fab fa-github"></i
                   ></a>
                   <!-- <a
                     href="https://twitter.com/Robotics4EU"
@@ -1626,31 +1643,25 @@
                   <div class="row">
                     <div class="col-sm-12 consortium-content">
                       <a
-                        href="https://civitta.com/"
+                        href="#about"
                         class="consortium-partner"
                         title="CIVITTA"
-                        target="_blank"
                       >
-                        <span class="partner-name">CIVITTA</span>
-                        <span class="partner-subtitle">CIVITTA EESTI AS </span>
+                        <span class="partner-name">CIVITTA - About</span>
+                        <!-- <span class="partner-subtitle">CIVITTA EESTI AS </span>
                         <div class="image-box">
                           <img
                             src="wp-content/uploads/2021/05/civitta-01.png"
                             alt="CIVITTA"
                             class="partner-logo"
                           />
-                        </div>
+                        </div> -->
                       </a>
                     </div>
                     <div class="col-sm-12 consortium-content">
-                      <a
-                        href="https://robotex.ee/"
-                        class="consortium-partner"
-                        title="ROBOTEX"
-                        target="_blank"
-                      >
-                        <span class="partner-name">ROBOTEX</span>
-                        <span class="partner-subtitle"
+                      <a href="#bot" class="consortium-partner" title="ROBOTEX">
+                        <span class="partner-name">ROBOTEX - The Bot</span>
+                        <!-- <span class="partner-subtitle"
                           >MITTETULUNDUSUHING ROBOTEX
                         </span>
                         <div class="image-box">
@@ -1659,36 +1670,36 @@
                             alt="ROBOTEX"
                             class="partner-logo"
                           />
-                        </div>
+                        </div> -->
                       </a>
                     </div>
                     <div class="col-sm-12 consortium-content">
                       <a
-                        href="https://www.loba.com"
+                        href="#dapp"
                         class="consortium-partner"
                         title="LOBA"
                         target="_blank"
                       >
-                        <span class="partner-name">LOBA</span>
-                        <span class="partner-subtitle">GLOBAZ, S.A. </span>
+                        <span class="partner-name">LOBA - The DApp</span>
+                        <!-- <span class="partner-subtitle">GLOBAZ, S.A. </span>
                         <div class="image-box">
                           <img
                             src="wp-content/uploads/2021/05/loba-01.png"
                             alt="LOBA"
                             class="partner-logo"
                           />
-                        </div>
+                        </div> -->
                       </a>
                     </div>
                     <div class="col-sm-12 consortium-content">
                       <a
-                        href="https://www.lne.fr/fr"
+                        href="#tokenomics"
                         class="consortium-partner"
                         title="LNE"
                         target="_blank"
                       >
-                        <span class="partner-name">LNE</span>
-                        <span class="partner-subtitle"
+                        <span class="partner-name">LNE - Tokenomics</span>
+                        <!-- <span class="partner-subtitle"
                           >LABORATOIRE NATIONAL DE METROLOGIE ET D'ESSAIS
                         </span>
                         <div class="image-box">
@@ -1697,18 +1708,18 @@
                             alt="LNE"
                             class="partner-logo"
                           />
-                        </div>
+                        </div> -->
                       </a>
                     </div>
                     <div class="col-sm-12 consortium-content">
                       <a
-                        href="https://tekno.dk/?lang=en"
+                        href="#roadmap"
                         class="consortium-partner"
                         title="DBT"
                         target="_blank"
                       >
-                        <span class="partner-name">DBT</span>
-                        <span class="partner-subtitle"
+                        <span class="partner-name">DBT - Roadmap</span>
+                        <!-- <span class="partner-subtitle"
                           >The Danish Board of Technology Foundation
                         </span>
                         <div class="image-box">
@@ -1717,10 +1728,10 @@
                             alt="DBT"
                             class="partner-logo"
                           />
-                        </div>
+                        </div> -->
                       </a>
                     </div>
-                    <div class="col-sm-12 consortium-content">
+                    <!-- <div class="col-sm-12 consortium-content">
                       <a
                         href="https://www.agrifood.lt/"
                         class="consortium-partner"
@@ -1759,10 +1770,10 @@
                           />
                         </div>
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <div class="offset-lg-1 col-md-6 col-lg-5 no-padding-link">
                     <a
                       href="https://www.robotics4eu.eu/privacy-policy/"
@@ -1797,9 +1808,9 @@
                       </div>
                     </a>
                   </div>
-                </div>
+                </div> -->
               </div>
-              <div class="col-sm-12">
+              <!-- <div class="col-sm-12">
                 <div class="copyright">
                   Robotics4EU all rights reserved @ 2024
                 </div>
@@ -1812,7 +1823,7 @@
                     ><i class="icon-loba"></i
                   ></a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -2013,8 +2024,12 @@
       };
     </script>
     <script
+      src="https://kit.fontawesome.com/0641a1d566.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
       type="text/javascript"
       src="https://cdn.userway.org/widget.js"
-    ></script>
+    ></script> -->
   </body>
 </html>
