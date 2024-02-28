@@ -19306,3 +19306,32 @@ body.register .ssb_st {
     top: -20vh;
   }
 }
+
+.roadmap-step-container {
+  width: 90%;
+}
+
+.roadmap-step {
+  text-align: left;
+  font-size: small;
+  margin-bottom: 0px;
+}
+
+.roadmap-phases {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .roadmap-phases {
+    flex-direction: column;
+    gap: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .p-description {
+    font-size: smaller;
+  }
+}
