@@ -19323,6 +19323,10 @@ body.register .ssb_st {
   margin-bottom: 1rem;
 }
 
+.roadmap-section {
+  margin-bottom: 5rem;
+}
+
 @media (max-width: 768px) {
   .roadmap-phases {
     flex-direction: column;
@@ -19333,5 +19337,9 @@ body.register .ssb_st {
 
   .p-description {
     font-size: smaller;
+  }
+
+  .roadmap-section {
+    margin-bottom: 100rem;
   }
 }
