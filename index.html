@@ -34,7 +34,7 @@
     />
 
     <!-- This site is optimized with the Yoast SEO plugin v21.9.1 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Robotics4EU Project</title>
+    <title>BotAI</title>
     <meta
       name="description"
       content="Welcome to the homepage of Robotics4EU, your gateway to the latest trends on robotics research, innovation, and policy initiatives in Europe."
@@ -42,7 +42,7 @@
     <link rel="canonical" href="//" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Robotics4EU Project" />
+    <meta property="og:title" content="BotAI" />
     <meta
       property="og:description"
       content="Boosting Wider Adoption of Robotics in Europe"
@@ -61,7 +61,7 @@
     <meta property="og:image:height" content="628" />
     <meta property="og:image:type" content="image/png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Robotics4EU Project" />
+    <meta name="twitter:title" content="BotAI" />
     <meta
       name="twitter:description"
       content="Boosting Wider Adoption of Robotics in Europe"
@@ -78,7 +78,7 @@
             "@type": "WebPage",
             "@id": "//",
             "url": "//",
-            "name": "Robotics4EU Project",
+            "name": "BotAI",
             "isPartOf": {
               "@id": "//#website"
             },
@@ -134,7 +134,7 @@
           {
             "@type": "Organization",
             "@id": "//#organization",
-            "name": "Robotics4EU Project",
+            "name": "BotAI",
             "url": "//",
             "logo": {
               "@type": "ImageObject",
@@ -144,7 +144,7 @@
               "contentUrl": "wp-content/uploads/2021/05/sharewebsite_ac_20210218.png",
               "width": 1200,
               "height": 628,
-              "caption": "Robotics4EU Project"
+              "caption": "BotAI"
             },
             "image": {
               "@id": "//#/schema/logo/image/"
@@ -718,6 +718,21 @@
   <body
     class="home page-template page-template-template-home page-template-template-home-php page page-id-9"
   >
+    <video
+      src="wp-content/themes/robotics4eu/assets/img/matrix.mp4"
+      autoplay
+      loop
+      style="
+        width: 120%;
+        height: 120%;
+        opacity: 60%;
+        z-index: -10;
+        position: fixed;
+        top: 0px;
+        left: -120px;
+      "
+    ></video>
+
     <header>
       <div class="header">
         <div class="container">
@@ -728,23 +743,23 @@
                   ><img
                     src="wp-content/themes/robotics4eu/assets/img/r_header.png"
                     alt="Robotics4eu"
-                    class="logo"
-                    style="position: relative; top: -0.5rem"
+                    class="logo-desktop"
+                    height="68px"
+                    width="50px"
                 /></a>
                 <a href="/" title="Robotics4eu"
                   ><img
                     src="wp-content/themes/robotics4eu/assets/img/r_header.png"
                     alt="Robotics4eu"
                     class="logo-mobile"
-                    width="228"
-                    height="130"
-                    style="position: relative; top: -1.8rem"
+                    height="68px"
+                    width="50px"
                 /></a>
               </div>
               <div
                 id="primary-menu"
                 class="clearfix"
-                style="height: fit-content; margin-top: 1rem"
+                style="height: fit-content; margin-top: 1.8rem"
               >
                 <!-- <div class="mobile-left">
                   <a href="//contacts/" class="menu-contact" title="Contacts"
@@ -970,27 +985,29 @@
                   <ul class="menu">
                     <li class="menu-item" style="width: 8rem">
                       <a
-                        href="#tokenomics"
+                        href="https://t.me/TheBotAIBot"
                         class="menu-link"
-                        title="tokenomics"
+                        title="launch bot"
                         style="
                           color: gold;
                           text-shadow: 0 1px 20px hsla(0, 0%, 100%, 0.5);
                           font-weight: 700;
                         "
+                        target="_blank"
                         >Launch Bot</a
                       >
                     </li>
                     <li class="menu-item" style="width: 8rem">
                       <a
-                        href="#roadmap"
+                        href="https://unidex-d-app.vercel.app/"
                         class="menu-link"
-                        title="roadmap glowing-text"
+                        title="launch DApp"
                         style="
                           color: gold;
                           text-shadow: 0 1px 20px hsla(0, 0%, 100%, 0.5);
                           font-weight: 700;
                         "
+                        target="_blank"
                         >Launch DApp</a
                       >
                     </li>
@@ -1469,14 +1486,14 @@
         </div>
       </section> -->
 
-      <section class="home-robot">
+      <!-- <section class="home-robot">
         <div class="text-bottom">
           <div class="text-return">Interested?</div>
           <a href="//contacts/" class="return-link" title="Let's talk!"
             >Let's talk!</a
           >
         </div>
-      </section>
+      </section> -->
 
       <a href="#" class="btn-top" title="go to top"
         ><i class="fas fa-arrow-up"></i>
@@ -1499,25 +1516,24 @@
             <div class="btn-wrapper">
               <a
                 class="btn btn-secondary btn-plus"
-                title="+ info"
                 data-toggle="modal"
                 data-target="#infoModal"
                 ><i class="fas fa-ellipsis-h"></i
               ></a>
-              <div class="btn-info info-plus">+ info</div>
             </div>
 
-            <!-- <div class="eu-area-footer">
+            <div
+              style="position: relative; left: calc(100vw - 200px)"
+              class="btn-wrapper"
+            >
               <img
-                src="wp-content/themes/robotics4eu/assets/img/euflag.svg"
-                alt="European Union"
+                src="wp-content/themes/robotics4eu/assets/img/r_header.png"
+                alt="Robotics4eu"
+                class="logo"
+                height="55px"
+                width="40px"
               />
-              <div class="eu-text">
-                This project has received funding from the European Union’s
-                Horizon 2020 research and innovation programme under grant
-                agreement No 101017283
-              </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </footer>
@@ -1547,8 +1563,8 @@
                   Stay up to date with news related to:
                 </div>
                 <div class="newsletter-topics">
-                  - the results of Robotics4EU project;<br />- the adoption of
-                  (AI-based) robots in our four focus areas;<br />- responsible
+                  - the results of BotAI;<br />- the adoption of (AI-based)
+                  robots in our four focus areas;<br />- responsible
                   robotics.<br />
                 </div>
               </div>
@@ -1904,7 +1920,7 @@
         <div class="cookies__title">cookies definitions</div>
         <div class="cookies-description">
           <p class="cookies-bar-message">
-            Robotics4EU Project may use cookies to memorise the data you use
+            BotAI may use cookies to memorise the data you use
             when logging to Robotics4EU website, gather statistics to optimise
             the functionality of the website and to carry out marketing
             campaigns based on your interests.
